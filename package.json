@@ -1,0 +1,22 @@
+{
+  "name": "slimdown",
+  "version": "0.0.1",
+  "description": "Outputs HTML from input in a lightweight markup language.",
+  "main": "build/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build/main.js",
+    "build": "gulp scripts"
+  },
+  "author": "https://github.com/theTardigrade",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^5.0.0-alpha.1",
+    "gulp-uglify": "^3.0.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "npm-name-exists": "^1.0.4"
+  }
+}
