@@ -1,6 +1,6 @@
 {
   "name": "slimdown",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Outputs HTML from input in a lightweight markup language.",
   "main": "build/main.js",
   "scripts": {
