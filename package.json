@@ -1,6 +1,6 @@
 {
   "name": "slimdown",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Outputs HTML from input in a lightweight markup language.",
   "main": "build/main.js",
   "scripts": {
@@ -20,9 +20,12 @@
     "Slimdown"
   ],
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-typescript": "^5.0.0-alpha.1",
-    "gulp-uglify": "^3.0.0",
+    "extend": ">=3.0.2",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
+    "gulp-uglify": "^3.0.2",
+    "lodash": ">=4.17.11",
+    "minimatch": ">=3.0.2",
     "typescript": "^2.9.2"
   }
 }
